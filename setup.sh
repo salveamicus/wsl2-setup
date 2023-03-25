@@ -2,8 +2,9 @@
 
 curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
+sudo add-apt-repository ppa:kelleyk/emacs
 sudo apt update
-sudo apt-get install -y emacs
+sudo apt-get install -y emacs28
 sudo apt-get install -y vim
 sudo apt-get install -y git
 sudo apt-get install -y gh
