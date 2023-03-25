@@ -23,7 +23,7 @@ sudo apt-get install -y libicu-dev libncurses-dev libgmp-dev zlib1g-dev
 sudo apt-get install -y default-jre
 sudo apt-get install -y tidy
 sudo apt-get install -y jsbeautifier
-sudo apt-get install build-essential
+sudo apt-get install -y build-essential
 sudo apt-get install -y npm
 npm init stylelint
 
