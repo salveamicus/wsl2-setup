@@ -27,6 +27,7 @@ sudo apt-get install -y build-essential
 sudo apt-get install -y clang
 sudo apt-get install -y clangd-12
 sudo apt-get install -y cmake
+sudo apt-get install -y pkg-config
 sudo apt-get install -y npm
 npm init stylelint
 
