@@ -26,8 +26,11 @@ sudo apt-get install -y jsbeautifier
 sudo apt-get install -y build-essential
 sudo apt-get install -y clang
 sudo apt-get install -y clangd-12
+sudo apt-get install -y cmake
 sudo apt-get install -y npm
 npm init stylelint
+
+sudo apt-get upgrade
 
 mkdir projects
 cd projects/
