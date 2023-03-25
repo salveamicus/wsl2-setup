@@ -1,0 +1,12 @@
+torch
+tensorflow
+numpy
+matplotlib
+scipy
+opencv-python
+spinners
+wheel
+isort
+pipenv
+nose
+pytest
