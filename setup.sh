@@ -4,7 +4,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
 sudo add-apt-repository ppa:kelleyk/emacs
 sudo apt update
-sudo apt-get install -y emacs28
 sudo apt-get install -y vim
 sudo apt-get install -y git
 sudo apt-get install -y gh
@@ -28,8 +27,16 @@ sudo apt-get install -y clang
 sudo apt-get install -y clangd-12
 sudo apt-get install -y cmake
 sudo apt-get install -y pkg-config
+sudo apt-get install -y autoconf
 sudo apt-get install -y npm
 npm init stylelint
+
+git clone git://git.savannah.gnu.org/emacs.git
+cd emacs
+git checkout emacs-28
+./autogen.sh
+./configure --with-native-compilation
+make -j$(nproc)
 
 sudo apt-get upgrade
 
