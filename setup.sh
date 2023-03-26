@@ -28,8 +28,13 @@ sudo apt-get install -y clangd-12
 sudo apt-get install -y cmake
 sudo apt-get install -y pkg-config
 sudo apt-get install -y autoconf
+sudo apt-get install -y texinfo
+sudo apt-get install -y libgccjit-10-dev
+sudo apt-get install -y gnutls-bin
+sudo apt-get install -y racket
+sudo apt-get install -y glslang-tools
+sudo apt-get install -y default-jdk
 sudo apt-get install -y npm
-npm init stylelint
 
 git clone git://git.savannah.gnu.org/emacs.git
 cd emacs
