@@ -5,6 +5,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 sudo add-apt-repository ppa:kelleyk/emacs
 sudo apt update
 sudo apt-get install -y vim
+sudo apt-get install -y emacs28
 sudo apt-get install -y git
 sudo apt-get install -y gh
 sudo apt-get install -y python-is-python3
@@ -35,13 +36,6 @@ sudo apt-get install -y racket
 sudo apt-get install -y glslang-tools
 sudo apt-get install -y default-jdk
 sudo apt-get install -y npm
-
-git clone git://git.savannah.gnu.org/emacs.git
-cd emacs
-git checkout emacs-28
-./autogen.sh
-./configure --with-native-compilation
-make -j$(nproc)
 
 sudo apt-get upgrade
 
