@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 
-curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
-
 sudo add-apt-repository ppa:kelleyk/emacs
 sudo apt update
 sudo apt-get install -y vim
@@ -38,6 +36,8 @@ sudo apt-get install -y default-jdk
 sudo apt-get install -y npm
 
 sudo apt-get upgrade
+
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
 mkdir projects
 cd projects/
