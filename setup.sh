@@ -3,6 +3,7 @@
 sudo add-apt-repository ppa:kelleyk/emacs
 sudo apt update
 sudo apt-get install -y vim
+sudo apt-get install -y neovim
 sudo apt-get install -y emacs28
 sudo apt-get install -y git
 sudo apt-get install -y gh
