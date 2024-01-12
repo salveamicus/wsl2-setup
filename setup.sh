@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 sudo add-apt-repository ppa:kelleyk/emacs
+sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt update
 sudo apt-get install -y vim
 sudo apt-get install -y neovim
