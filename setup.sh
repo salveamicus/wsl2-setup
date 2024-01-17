@@ -37,7 +37,7 @@ sudo apt-get install -y glslang-tools
 sudo apt-get install -y default-jdk
 sudo apt-get install -y npm
 
-sudo apt-get upgrade - y
+sudo apt-get upgrade -y
 
 curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
