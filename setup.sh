@@ -41,8 +41,8 @@ sudo apt-get upgrade
 
 curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
-mkdir projects
-cd projects/
+mkdir ~/projects
+cd ~/projects/
 git clone https://github.com/salveamicus/opencv-cpp-experiments
 cd opencv-cpp-experiments/
 git checkout develop
